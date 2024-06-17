@@ -1,11 +1,11 @@
-export class Node {
+class Node {
     constructor(data, next = null) {
         this.data = data; // Holds the data for the node
         this.next = next; // Pointer to the next node in the list, defaults to null
     }
 }
 
-export class LinkedList {
+class LinkedList {
     constructor() {
         this.head = null; // Start with an empty list where head is null
     }
